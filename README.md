@@ -1,6 +1,7 @@
 Phases of the Project
 
 Phase 1
+
     Step 1-> 
     Landing Page (HTML and CSS encoded), all relevant assests found
 
