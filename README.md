@@ -8,6 +8,7 @@ Phase 1
 
     Step 2-> 
     Signup/Login Page (HTML and CSS, no JS)
+    
 
     Step 3->
     Home/Discussions Page (Html and CSS, no JS)
