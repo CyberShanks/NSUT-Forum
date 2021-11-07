@@ -24,7 +24,7 @@ Notes Landing Page Style
 
 Notes Landing Page Body
 
-Navigation 
+Navigation and Main Display 
 
     1) data-spy="scroll" data-target="#navbar" data-offset="72" class="position-relative";
     Updates navigationbased on scroll position to indicate which link is currently active. To add scroll behavior to the navigation bar, add data-spy="scroll" to the element you want to spy on (most typically this would be the <body>). Then add the data-target attribute with the ID or class of the parent element of any Bootstrap with .nav component. This should always have a relative postion class to work.
@@ -44,6 +44,7 @@ Navigation
     5) class="fas fa-bars ms-2"
     This is and inline element for "Menu" that used font awesome to add three bars beside the text saying menu. ms-2 specifies the spacing between the text and the bars.
 
+    6) d-flex is used to display a flex container. vh-100 is the sizing of the display. cover and hero are defined in the CSS. class="row" is used mainly to hold columns in it. Bootstrap divides each row into a grid of 12 virtual columns. For example, under row, col-md-6 div will have the width of 6/12 of the "row"s div, meaning 50%. The col-md-4 will hold 33.3%, and the col-md-2 will hold the remaining 16.66%.
 
 
 
