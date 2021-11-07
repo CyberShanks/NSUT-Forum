@@ -60,9 +60,10 @@ Register Page
 
     Under the form tag, form-floating allows the inputs label to float to the top of the input box while entering the text. The .form-control styles the textual form controls—like <input>s, <select>s, and <textarea>s. The .form-group class adds structure to forms. It provides a flexible class that encourages proper grouping of labels, controls, optional help text, and form validation messaging. The .form-check is used to create a checkbox.
 
-Login Page
 
-    
+
+
+
 
 
 
