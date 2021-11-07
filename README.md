@@ -46,6 +46,24 @@ Navigation and Main Display
 
     6) d-flex is used to display a flex container. vh-100 is the sizing of the display. cover and hero are defined in the CSS. class="row" is used mainly to hold columns in it. Bootstrap divides each row into a grid of 12 virtual columns. For example, under row, col-md-6 div will have the width of 6/12 of the "row"s div, meaning 50%. The col-md-4 will hold 33.3%, and the col-md-2 will hold the remaining 16.66%.
 
+About/How it Works
+
+    1) This uses the bootstrap property "row" to divide the page into columns.
+    2) Font awesome is used to import images and insert appropriate spacing. The fa-stack is used to stack icons on the parent HTML element of the 2 icons you want to stack. The fa-stack-1x class for the regularly sized icon and add the fa-stack-2x class for the larger icon. "mt-3" is used for spacing.
+
+Footer (to be done Later)
+
+Register Page 
+
+    A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. A card has no margin and so it needs to be specefied. 
+    Note: fw=font weight, fs=font size
+
+    Under the form tag, form-floating allows the inputs label to float to the top of the input box while entering the text. The .form-control styles the textual form controls—like <input>s, <select>s, and <textarea>s. The .form-group class adds structure to forms. It provides a flexible class that encourages proper grouping of labels, controls, optional help text, and form validation messaging. The .form-check is used to create a checkbox.
+
+Login Page
+
+    
+
 
 
 
