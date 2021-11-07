@@ -7,20 +7,21 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
     <style>
         :root {
-        --lightblue: #f6f9fc;
+        --brightwhite: #f6f9fc;
         --purple: #12153b;
         --offwhite: rgb(218, 218, 224);
         }
+
         a,a:hover {
         color: inherit;
-        }
-        a:hover {
         text-decoration: none;
         }
-        .bg-lightblue {
-        background: var(--lightblue);
+      
+        .bg-brightwhite {
+        background: var(--brightwhite);
         }
         .bg-purple {
         background: var(--purple);
@@ -31,6 +32,13 @@
         .text-purple {
         color: var(--purple);
         }
+        .scroll .page-header {
+        background: var(--purple);
+        }
+        .page-header .navbar-toggler {
+        border-color: var(--white); 
+        }
+
         .container-fluid-max {
         max-width: 1440px;
         }
@@ -40,9 +48,7 @@
         .p-15 {
         padding: 15px;
         }
-        .scroll .page-header {
-        background: var(--purple);
-        }
+      
         .scroll .hero {
         transform: scale(0.98);
         }
@@ -52,26 +58,25 @@
         .page-header .navbar {
         padding: 1rem 0;
         }
-        .page-header .navbar-toggler {
-        border-color: var(--white); 
-        }
+      
         .hero {
         background-attachment: fixed;
         transition: transform 0.5s ease-in-out;
         }
 
         .hero::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: linear-gradient(
-            rgba(0, 0, 0, 0.5) 0,
-            rgba(0, 0, 0, 0.3) 50%,
-            rgba(0, 0, 0, 0.1) 100%
-        );
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: linear-gradient
+          (
+              rgba(0, 0, 0, 0.5) 0,
+              rgba(0, 0, 0, 0.3) 50%,
+              rgba(0, 0, 0, 0.1) 100%
+          );
         }
 
         .hero .container-fluid {
@@ -81,16 +86,18 @@
         margin-bottom: 30px;
         }
 
-        @media screen and (max-width: 991px) {
-        .page-header {
-            background: var(--purple);
-        }
+        @media screen and (max-width: 991px) 
+        {
+          .page-header {
+              background: var(--purple);
+          }
         }
 
-        @media screen and (max-width: 767px) {
-        .page-footer .footer-child {
-            text-align: center;
-        }
+        @media screen and (max-width: 767px) 
+        {
+          .page-footer .footer-child {
+              text-align: center;
+          }
         }
 
     </style>
